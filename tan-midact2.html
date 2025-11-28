@@ -1,0 +1,127 @@
+<DOCTYPE! html>
+    <head>
+        <title> Forum - Valorant Esports </title>
+        <style>
+            .center-text {
+              text-align: center;
+            }
+            .center {
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             width: 20%;
+}
+            .my-box {
+             width: 400px; 
+             height: 500px; 
+             background-color: rgb(190, 168, 168); 
+             border: 2px solid rgb(42, 42, 43); 
+             padding: 15px; 
+             margin: 0px auto;  
+            }
+
+            input[type="text"],
+            textarea {
+                text-align: center;
+            }
+
+            body,p {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+             background-image: url(VCT-stage.webp);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="center-text" style="color: rgb(143, 138, 138);"> Valorant Open-LAN Tryouts </h1>
+        <hr>
+        <img src="600px-Valorant_Champions_Tour_Global_allmode.png" alt="VCT" class="center">
+        <br>
+        <div class="my-box"> 
+            <h3 class="center-text"> Standardize Information </h3>
+            <form action="" style="text-align: center;">
+                <label for="realname">Real Name: </label>
+                <input type="text" id="realname" name="name">
+                <br>
+                <label for="age"> Age: </label>
+                <input type="number" id="age" age="age">
+                <br>
+                <label for="email"> Email: </label>
+                <input type="email" id="email" email="email">
+                <br>
+                <br>
+                <p> Sex: </p>
+                <input type="radio" id="male" name="Male" value="iamMale">
+                <label for="male"> Male </label>
+                <br>
+                <input type="radio" id="female" name="Female" value="iamFemale">
+                <label for="Female"> Female </label> 
+                <br>
+                <br>
+                <label for="gender"> Gender: </label>
+                <select id="gender" name="gender">
+                    <option value="n/a"> </option>
+                    <option value="Straight">Straight</option>
+                    <option value="Gay">Gay</option>
+                    <option value="Lesbian">Lesbian</option>
+                    <option value="Bisexual">Bisexual</option>
+                    <option value="Asexual">Asexual</option>
+                    <option value="Queer">Queer</option>
+                </select>
+                <br>
+                <br>
+                <label for="bio">Other Additional Information (Can be used as a greeting :D ): </label><br>
+                <textarea id="bio" name="bio" rows="5" cols="50"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Send Information">
+                <input type="reset"  value="Reset Information">
+            </form>
+        </div>
+        <br>
+        <div class="my-box">
+            <h3 class="center-text"> Rank Information </h3>
+            <form action="" style="text-align: center;">
+                <label for="username">Username: </label>
+                <input type="text" id="username" username="username">
+                <br>
+                <label for="currentrank">Current Rank:</label>
+                <input type="text" id="currentrank" currentrank="currentrank">
+                <br>
+                <label for="peakrank">Peak Rank:</label>
+                <input type="text" id="peakrank" peakrank="peakrank">
+                <br>
+                <br>
+                <label for="lastplayedfor">Last Played For (Click the circle if none):</label>
+                <textarea id="lastplayedfor" name="lastplayedfor" rows="5" cols="50"></textarea>
+                <input type="radio" id="none" name="none" value="lastteamplayed">
+                <label for="none">N/A</label>
+                <br>
+                <br>
+                <p> What are your roles?: </p>
+                <input type="checkbox" id="duelist" name="duelist" value="Duelist">
+                <label for="duelist"> <img src="https://cdn3.emoji.gg/emojis/4987-duelist-valorant.png" height="15em";> Duelist </label>
+                <input type="checkbox" id="initiator" name="initiator" value="Initiator">
+                <label for="initiator"> <img src="https://cdn3.emoji.gg/emojis/3452-initiator-valorant.png" height="15em";> Initiator </label>
+                <input type="checkbox" id="sentinel" name="sentinel" value="Senitinel">
+                <label for="sentinel"> <img src="https://cdn3.emoji.gg/emojis/5030-sentinel-valorant.png" height="15em";> Sentinel </label>
+                <input type="checkbox" id="controller" name="controller" value="Controller">
+                <label for="controller"> <img src="https://cdn3.emoji.gg/emojis/8733-controller-valorant.png" height="15em";> Controller </label>
+                <input type="checkbox" id="flex" name="flex" value="Flex">
+                <label for="flex">Flex</label>
+                <br>
+                <br>
+                <p>Socials: </p>
+                <textarea id="socials" name="socials" rows="2" cols="50"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Send Player Information">
+                <input type="reset"  value="Reset Player Information">
+            </form>
+        </div>
+    </body>
+
+
+</DOCTYPE>
